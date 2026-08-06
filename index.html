@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Real Face · Pachin_Hytam</title>
+  <meta name="description" content="Portfolio dengan nuansa sendu dan hangat ala Nadhif Basalamah.">
+  <meta name="keywords" content="portfolio, real face, nadhif basalamah, Pachin_Hytam">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.png" rel="apple-touch-icon">
+
+  <!-- Fonts - Programmer Aesthetic -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=JetBrains+Mono:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File - Real Face Theme -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <!-- ============================================= -->
+  <!-- THEME SWITCHER DROPDOWN -->
+  <!-- ============================================= -->
+  <div class="theme-switcher-wrapper">
+    <button class="theme-dropdown-btn" id="themeDropdownToggle">
+      <i class="bi bi-palette-fill"></i>
+      <span id="currentThemeLabel">Dark</span>
+      <i class="bi bi-chevron-down"></i>
+    </button>
+    <ul class="theme-dropdown-menu" id="themeDropdownMenu">
+      <li><button class="theme-option" data-theme="light"><i class="bi bi-sun-fill"></i> Light</button></li>
+      <li><button class="theme-option active-theme" data-theme="dark"><i class="bi bi-moon-fill"></i> Dark</button></li>
+    </ul>
+  </div>
+
+  <!-- ============================================= -->
+  <!-- MUSIC PLAYER - ROTATING DISC DESIGN -->
+  <!-- ============================================= -->
+  <div class="music-player">
+    <div id="musicDisc" class="music-disc paused">
+      <div class="music-disc-inner">
+        <img id="musicDiscCover" src="assets/img/favicon.png" alt="Album Cover" class="music-disc-cover" />
+        <div class="music-disc-ring"></div>
+      </div>
+      <div class="music-disc-icon"><i class="bi bi-play-fill"></i></div>
+    </div>
+  </div>
+
+  <!-- ============================================= -->
+  <!-- HEADER -->
+  <!-- ============================================= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/favicon.png" alt="Real Face">
+        <h1 class="sitename">Pachin_Hytam</h1>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============================================= -->
+  <!-- MAIN CONTENT -->
+  <!-- ============================================= -->
+  <main class="main">
+
+    <!-- Hero Section - Real Face Mood -->
+    <section id="hero" class="hero section">
+      <!-- Background Video -->
+      <video autoplay muted loop playsinline id="hero-video">
+        <source src="assets/video/real-face-bg.mp4" type="video/mp4">
+        <!-- Fallback image jika video gagal dimuat -->
+        <img src="assets/img/favicon.jpg" alt="Real Face Background">
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>Pachin_Hytam</h2>
+        <p>I'm <span class="typed" data-typed-items="Programmer, Desainer, Web Developer, UI/UX Creator"></span><span
+            class="typed-cursor typed-cursor--blink"></span></p>
+        <div class="social-links">
+          <a href="https://www.youtube.com/@PachinHytamm" target="_blank" rel="noopener">
+            <i class="bi bi-youtube"></i>
+          </a>
+          <a href="https://www.tiktok.com/@pachin_hytam" target="_blank" rel="noopener">
+            <i class="bi bi-tiktok"></i>
+          </a>
+          <a href="https://www.instagram.com/pachinhytam/" target="_blank" rel="noopener">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://open.spotify.com/playlist/4UqjIi99uZrQg1dzIGyubT?si=d1myt8DcQuWoRxsm6gyFjg" target="_blank" rel="noopener">
+            <i class="bi bi-spotify"></i>
+          </a>
+          <a href="https://github.com/pachinhytam" target="_blank" rel="noopener">
+            <i class="bi bi-github"></i>
+          </a>
+        </div>
+      </div>
+    </section><!-- /Hero Section -->
+
+  </main>
+
+  <!-- ============================================= -->
+  <!-- FOOTER - NADHIF VIBE QUOTE -->
+  <!-- ============================================= -->
+  <footer id="footer" class="footer">
+    <div class="container">
+      <h3 class="sitename">Pachin_Hytam</h3>
+      <p>"Masih belajar, masih bertumbuh, masih berjuang.
+        "</p>
+
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.youtube.com/@PachinHytamm" target="_blank" rel="noopener"><i class="bi bi-youtube"></i></a>
+        <a href="https://www.tiktok.com/@pachin_hytam" target="_blank" rel="noopener"><i class="bi bi-tiktok"></i></a>
+        <a href="https://www.instagram.com/pachinhytam/" target="_blank" rel="noopener"><i
+            class="bi bi-instagram"></i></a>
+        <a href="https://open.spotify.com/playlist/4UqjIi99uZrQg1dzIGyubT?si=d1myt8DcQuWoRxsm6gyFjg" target="_blank" rel="noopener"><i class="bi bi-spotify"></i></a>
+        <a href="https://github.com/pachinhytam" target="_blank" rel="noopener"><i class="bi bi-github"></i></a>
+      </div>
+
+      <div class="copyright">
+        <span>Copyright</span> <strong class="px-1 sitename">Pachin_Hytam</strong> <span>All Rights Reserved</span>
+      </div>
+      <div class="credits">
+        Designed & Developed by <strong style="color: var(--accent-color);">Pachin_Hytam</strong>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top Button -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="preloader-frame">
+      <div class="preloader-track">
+        <div class="preloader-segments">
+          <span class="segment"></span>
+          <span class="segment"></span>
+          <span class="segment"></span>
+          <span class="segment"></span>
+          <span class="segment"></span>
+        </div>
+        <div class="logo-wrapper">
+          <img src="assets/img/favicon.png" alt="Logo" class="logo-image" id="logo-image">
+        </div>
+      </div>
+      <div class="preloader-caption">
+        <span class="preloader-text" id="typing-text"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
